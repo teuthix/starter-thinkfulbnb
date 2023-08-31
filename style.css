@@ -171,8 +171,7 @@ footer p {
   }
   
   img {
-    flex: 1;
-    margin: 10px;
+    flex: 110%;
   }
   
 
@@ -195,15 +194,18 @@ footer p {
 
 /* only affects ideas imgs */
 .item img {
-  padding: 10px;
+  padding: 0;
 }
 
 .item-couple {
-  max-width: 24%;
+  max-width: 23%;
+  object-fit: contain;
 }
 
 .fifty {
-  max-width: 50%;
+  width: 48%;
+  margin-left: 25px;
+  object-fit: contain;
 }
 
 .item-double {
@@ -222,9 +224,17 @@ footer p {
 
 
 /* --------Form--------- */
+form {
+  padding: 0;
+}
+
 form div {
   flex-direction: column;
-  padding-top: 20px;
+  padding: 0px;
+}
+
+form div.item{
+  margin: 25px 0 0 15px;
 }
 
 form select,
@@ -232,8 +242,4 @@ form input {
   margin-bottom: 20px;
   width: 68%;
 }
-
-
-
-
 }
