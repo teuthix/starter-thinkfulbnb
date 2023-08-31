@@ -171,82 +171,75 @@ footer p {
   }
   
   img {
-    flex: 1;
+    flex: 110%;
   }
+  
 
-  
-  
-  /* ---------Groups and Items--------- */
-  .group {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-  }
-  
-  .column {
-    flex-direction: column;
-  }
-  
-  .item {
-    flex: 1;
-    width: 100%;
-    margin: 15px;
-  }
-  
-  /* only affects ideas imgs */
-  .item img {
-    padding: 0px;
-  }
-  
-  .item-couple {
-    max-width: 23%;
-    object-fit: contain;
-  }
-  
-  .fifty {
-    width: 48%;
-    margin-left: 25px;
-    object-fit: contain;
-  }
-  
-  .item-double {
-    flex: 2;
-    flex-wrap: wrap;
-    padding: 20px;
-  }
-  
-  .centered {
-    display: flex;
-    margin: 25px;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-  }
-  
-  
-  /* --------Form--------- */
-  form {
-    padding: 0;
-  }
-  
-  form div {
-    flex-direction: column;
-    padding: 0px;
-  }
+/* ---------Groups and Items--------- */
+.group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
 
-  form div.item {
-    margin: 25px 0 0 15px;
-  }
+.column {
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  width: 100%;
+  margin: 15px;
+}
+
+/* only affects ideas imgs */
+.item img {
+  padding: 0;
+}
+
+.item-couple {
+  max-width: 23%;
+  object-fit: contain;
+}
+
+.fifty {
+  width: 48%;
+  margin-left: 25px;
+  object-fit: contain;
+}
+
+.item-double {
+  flex: 2;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.centered {
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
 
 
-  form select,
-  form input {
-    width: 75%;
-    margin-bottom: 25px;
-  }
-  
-  form button.item {
-    margin: 15px;
-  }
-  
+/* --------Form--------- */
+form {
+  padding: 0;
+}
+
+form div {
+  flex-direction: column;
+  padding: 0px;
+}
+
+form div.item{
+  margin: 25px 0 0 15px;
+}
+
+form select,
+form input {
+  margin-bottom: 20px;
+  width: 68%;
+}
 }
